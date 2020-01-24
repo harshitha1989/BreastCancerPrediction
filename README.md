@@ -38,3 +38,4 @@ sudo python3 server.py
 python3 BreastCancer_V0.ipynb
 ```
 
+![image](https://user-images.githubusercontent.com/48072989/73048491-3792b280-3e2e-11ea-9e2d-202bcb80c61a.png)
