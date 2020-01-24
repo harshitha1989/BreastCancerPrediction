@@ -16,9 +16,6 @@ def load_model():
     model = joblib.load(joblib_file)
     print(model)
 
-@app.route('/')
-def home_endpoint():
-    return 'Hello World!'
 
 @app.route('/predict',methods = ['GET','POST'])
 def score_model():
