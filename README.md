@@ -2,7 +2,7 @@
 
 Machine learning model is developed to predict the breast cancer based on the findings provided. 
 
-Model is trained on Google cloud and Application is deployed on AWS. API request from APP server sends the data required for  running the inference on the ML model server (Google cloud) though the api. Inference is executed on Source server (hosted on Google Cloud) and the response of the API which is the result of inference is sent back to the APP server(hosted on AWS)
+Model is trained on Google cloud and Application is deployed on AWS. Data is sent from APP server to ML model server (hosted on Google cloud) through a  REST api.  Inference is executed on Model server (hosted on Google Cloud) and the result of inference is sent as response of API to the APP server(hosted on AWS).
 
 ### Dataset
 
